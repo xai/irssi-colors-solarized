@@ -288,12 +288,12 @@ abstracts = {
   #   the content parts of the adv_windowlist.  Default seems to be blue
   # NOTE: if not set, the default background seems to be %w%4 = white on blue
   # %4 = blue
-  sb_background = "%k%6";
+  sb_background = "%0%w";
 
   # default backround for "default" statusbar group
   # NOTE: this impacts the statusbar of an inactive window and the edges of adv_windowlist
   # %7 = white (wich looks gray on a regular terminal with white bg)
-  sb_default_bg = "%k%7";
+  #sb_default_bg = "%k%7";
 
   # background for topicbar at the top (defaults to sb_default_bg)
   sb_topic_bg = "%W%0";
@@ -301,7 +301,7 @@ abstracts = {
   # background for the statusbar of active window. You can also give
   # the foreground color.
   # %2 = green
-  sb_window_bg = "%k%2";
+  #sb_window_bg = "%k%2";
 
   # background for prompt / input line
   sb_prompt_bg = "%n";
