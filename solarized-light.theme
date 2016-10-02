@@ -340,7 +340,7 @@ abstracts = {
   sb_act_sep = "%g$*";
   # normal text
   # This also affects the color of the window with activity in adv_windowlist
-  sb_act_text = "%w$*";
+  sb_act_text = "%g$*";
   # public message (ordinary messages)
   sb_act_msg = "%b$*";
   # hilight (when people actually chat)
